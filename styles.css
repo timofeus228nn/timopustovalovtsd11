@@ -1,0 +1,74 @@
+/* Загальні стилі для сторінки */
+body {
+    background-color: #f0f8ff; /* Світло-блакитний фон */
+    color: #333; /* Темний текст */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: #4caf50; /* Зелений фон */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #388e3c; /* Нижня рамка */
+}
+
+/* Секція основного контенту */
+main {
+    padding: 20px;
+}
+
+/* Стилі для списків */
+ul {
+    list-style-type: square; /* Маркери у вигляді квадратів */
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Фото з рамкою та відступами */
+img {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Стилі для посилань */
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #388e3c;
+    text-decoration: underline;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Контрольні питання */
+section#questions {
+    background-color: #e8f5e9;
+    border: 2px dashed #4caf50;
+    padding: 15px;
+    margin-top: 20px;
+}
+section#questions h2 {
+    color: #388e3c;
+}
